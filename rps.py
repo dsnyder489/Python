@@ -31,7 +31,7 @@ def move():
         player = raw_input("Rock = 1\nPaper = 2\nScissors = 3\nMake a move: ")
         try:
             player = int(player)
-            if player is (1, 2, 3):
+            if player in (1, 2, 3):
                 return player
         except ValueError:
             pass
